@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/*Voter Signup Page Starts*/
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body {
+    /* background-color: rgb(142,113,189);;  */
+    background-color: #5995fd;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    box-shadow:0 0 11px 5px rgba(22, 2, 22, 0.308);
+    text-align: center;
+    height: 510px;
+    width: 37.8%;
+    margin: 3% auto;
+    border: 2px solid #fff;
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#line1 {
+    border: 1px solid #5995fd;;
+    margin-top: -20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* .card-2 {
+    background-color: white;
+    box-shadow:0 0 11px 5px rgba(22, 2, 22, 0.151);
+    height: 360px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Poppins';
+    border: 2px solid #fff;
+    border-radius: 10px;
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+} */
+
+.container form {
+    text-align: left;
+    left: 35px;
+    top: 60px;
+    position: absolute;
+    transition: 0.5s;
+}
+
+#fullname, #phonenumber, #password, #password2, #nationalID, #county, #date, #constituency, #ward {
+    width:100%;
+    padding: 10px;
+    margin: 10px 0;
+    margin-left: 0px;
+    border: 1px solid rgba(128, 128, 128, 0.356) ;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.col-6 {
+    flex: 0 0 auto;
+    float: left;
+    width: 50%;
+}
+
+#p1 {
+    text-align: center;
+}
+
+.btn {
+    width: 100%;
+    margin: 15px auto;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+}
+
+form button {
+    /* background-color: rgb(142,113,189); */
+    background-color:#5995fd;
+    border: 0;
+    width: 110px;
+    height: 45px;
+    border-radius: 25px;
+    color: white;
+    font-size: 18px;
+    margin: 0px 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    /* color: rgb(142,113,189); */
+    border: 2px solid #5995fd;
+}
+
+a:link {
+    color: #5995fd;
+}
+
+.text-danger {
+    color: #dc3545!important;
+}
+
+.fa-solid {
+    float: right;
+    margin-right: 15px;
+    margin-top: -40px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#show {
+    display: none;
+}
+
+#Form2 {
+    left: 600px;
+}
+
+#Form3 {
+    left: 600px;
+}
+
+.progress-bar {
+    width: 554px;
+    height: 40px;
+    margin: 0  auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 -1px 5px -1px #000;
+    position: relative;
+    border-radius: 10px;
+}
+
+.progress-col {
+    width: 184px;
+    text-align: center;
+    color: #333;
+    position: relative;
+}
+
+#progress {
+    position: absolute;
+    height: 100%;
+    width: 184px;
+    background-color: #5995fd;
+    transition: 1s;
+}
+
+#progress::after {
+    content: '';
+    height: 0;
+    width: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    border-left: 20px solid #5995fd;
+}
+
+#login {
+    color: #5995fd;
+}
+/*Voter Signup Page Ends*/
